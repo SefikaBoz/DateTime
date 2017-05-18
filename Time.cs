@@ -35,3 +35,8 @@ namespace DateCalculate
             DateTime newDateTimeObj = dateTimeObj + dif;
 
             Console.WriteLine(newDateTimeObj);
+            
+            Console.ReadLine();
+        }
+    }
+}
