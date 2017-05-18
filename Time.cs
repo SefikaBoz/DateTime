@@ -31,7 +31,7 @@ namespace DateCalculate
             DateTime dateTimeObj = new DateTime(year, month, day, hour, minute, second);
             Console.WriteLine(dateTimeObj);
           
-            TimeSpan different = new TimeSpan(arrivalDay, aHour, aMinute, aSecond);
-            DateTime newDateTimeObj = dateTimeObj + different;
+            TimeSpan add = new TimeSpan(arrivalDay, aHour, aMinute, aSecond);
+            DateTime newDateTimeObj = dateTimeObj + add;
 
             Console.WriteLine(newDateTimeObj);
