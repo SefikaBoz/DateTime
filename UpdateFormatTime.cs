@@ -51,9 +51,6 @@ namespace DateCalculate
 
             Console.ReadLine();
         }
-        public void Calculate()
-        {
-
-        }
+       
     }
 }
