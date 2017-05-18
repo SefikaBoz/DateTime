@@ -1,5 +1,3 @@
-# DateTime
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,12 +41,12 @@ namespace DateCalculate
             }
             else
             {
-                arrivalDate = departureDate;
+                arrivalDate = departureDate.Add(new TimeSpan(0, newArrivalHour, newArrivalMinute, newArrivalSecond));
             }
 
             Console.WriteLine("ArrivalDate : " + arrivalDate);
-       
 
+   
             Console.ReadLine();
         }
       
